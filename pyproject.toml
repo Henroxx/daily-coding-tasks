@@ -1,0 +1,7 @@
+[project]
+name = "daily-coding-tasks"
+version = "0.1.0"
+description = "Coding by hand keeps your brain young"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []
