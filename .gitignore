@@ -1,14 +1,25 @@
+# OS
 .DS_Store
 
-# Python
-.venv/
-venv/
+# Python bytecode
 __pycache__/
 *.py[cod]
-.ipynb_checkpoints/
+
+# Environment
+.venv/
+
+# Packaging artifacts
+build/
+dist/
+*.egg-info/
+
+# Tool caches
 .pytest_cache/
 .ruff_cache/
-.python-version
+.mypy_cache/
 
-# Personal collaboration rules — never committed
-CLAUDE.local.md
+# Secrets
+.env
+
+# Editor
+.idea/
