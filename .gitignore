@@ -1,0 +1,14 @@
+.DS_Store
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+.python-version
+
+# Personal collaboration rules — never committed
+CLAUDE.local.md
